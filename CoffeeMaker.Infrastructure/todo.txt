@@ -1,0 +1,3 @@
+﻿In this layer, we add our third party libraries 
+like JWT Tokens Authentication or Serilog for logging,
+etc. so that all the third libraries will be in one place

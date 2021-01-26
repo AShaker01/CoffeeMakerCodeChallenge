@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoffeeMaker.Core\CoffeeMaker.Core.csproj" />
+    <ProjectReference Include="..\CoffeeMaker.Domain\CoffeeMaker.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+</Project>
